@@ -1,0 +1,31 @@
+Encapsulation is the method of combining the data and functions inside a class. 
+This hides the data from being accessed from outside a class directly, only through the functions inside the class is able to access the information.<br><br>
+
+This is also known as "Data Abstraction", as it gives a clear separation between properties of data type and the associated implementation details. 
+There are two types, they are "function abstraction" and "data abstraction". Functions that can be used without knowing how its implemented is function abstraction. 
+Data abstraction is using data without knowing how the data is stored.<br><br>
+
+C++ supports the properties of encapsulation and data hiding through the creation of user-defined types, called classes. 
+We know that class can have private, protected and public members. By default, all items defined in a class are private. 
+
+For example:
+class add
+{
+public:
+double getadd(void)
+{
+return no1 + no2;
+}
+private:
+double no1; 
+double no2;
+};
+
+The variables no1 & no2 are private. This means that they can be accessed only by other members of the add class, and not by any other part of your program. 
+This is one way encapsulation is achieved.<br><br>
+
+To make parts of a class public (i.e., accessible to other parts of your program), you must declare them after the public keyword. 
+All variables or functions defined after the public specifier are accessible by all other functions in your program.<br><br>
+
+Making one class a friend of another exposes the implementation details and reduces encapsulation. 
+The ideal is to keep as many of the details of each class hidden from all other classes as possible.

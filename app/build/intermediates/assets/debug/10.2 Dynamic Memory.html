@@ -1,0 +1,61 @@
+<b><font color="#E91E00">Allocating memory</font></b><br><br>
+
+There are two ways that memory gets allocated for data storage:<br>
+
+<b>Compile Time (or static) Allocation</b><br>
+- Memory for named variables is allocated by the compiler<br>
+- Exact size and type of storage must be known at compile time<br>
+- For standard array declarations, this is why the size has to be constant<br><br>
+
+<b>Dynamic Memory Allocation</b><br>
+- Memory allocated "on the fly" during run time<br>
+- dynamically allocated space usually placed in a program segment known as the heap or the free store.<br>
+- Exact amount of space or number of items does not have to be known by the compiler in advance.<br>
+- For dynamic memory allocation, pointers are crucial.<br><br>
+
+
+<b><font color="#E91E00">Dynamic Memory Allocation</font></b><br><br>
+We can dynamically allocate storage space while the program is running, but we cannot create new variable names "on the fly"<br><br>
+
+For this reason, dynamic allocation requires two steps:<br>
+- Creating the dynamic space.<br>
+- Storing its address in a pointer (so that the space can be accesed)<br><br>
+
+To dynamically allocate memory in C++, we use the new operator.<br><br>
+
+De-allocation:<br>
+- Deallocation is the "clean-up" of space being used for variables or other data storage<br>
+- Compile time variables are automatically deallocated based on their known extent (this is the same as scope for "automatic" variables)<br>
+- It is the programmer's job to deallocate dynamically created space<br>
+- To de-allocate dynamic memory, we use the delete operator<br><br>
+
+<b><font color="#E91E00">Allocating space with new</font></b><br><br>
+To allocate space dynamically, use the unary operator new, followed by the type being allocated.<br><br>
+
+ new int;<br>        // dynamically allocates an int <br>
+ new double;<br>     // dynamically allocates a double<br><br>
+
+If creating an array dynamically, use the same form, but put brackets with a size after the type:<br>
+
+new int[40];<br>      // dynamically allocates an array of 40 ints <br>
+new double[size];<br> // dynamically allocates an array of size doubles<br><br>
+
+These statements above are not very useful by themselves, because the allocated spaces have no names! BUT, the new operator returns the starting address of the allocated space, and this address can be stored in a pointer:<br>
+
+int * p;<br>        // declare a pointer p <br>
+p = new int;<br>    // dynamically allocate an int and load address into p<br><br> 
+
+<b><font color="#E91E00">Deallocation of dynamic memory</font></b><br><br>
+To deallocate memory that was created with new, we use the unary operator delete. The one operand should be a pointer that stores the address of the space to be deallocated:<br>
+
+int * ptr = new int;<br> // dynamically created int<br>
+...<br>
+delete ptr;<br> // deletes the space that ptr points to<br><br>
+
+Note that the pointer ptr still exists in this example. That's a named variable subject to scope and extent determined at compile time. It can be reused:<br>
+
+ptr = new int[10];<br> // point p to a brand new array<br><br>
+
+To deallocate a dynamic array, use this form:<br>
+
+delete [] name_of_pointer;<br>

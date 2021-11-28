@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bhakoo.letusc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:4:5-67
+11-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <meta-data
+13-->[com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:25:5-27:34
+14        android:name="android.support.VERSION"
+14-->[com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:26:9-47
+15        android:value="25.3.1" />
+15-->[com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:27:9-31
+16
+17    <application
+17-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:5:5-72:19
+18        android:allowBackup="true"
+18-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:6:9-35
+19        android:debuggable="true"
+20        android:icon="@drawable/icon"
+20-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:7:9-38
+21        android:label="@string/app_name"
+21-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:8:9-41
+22        android:supportsRtl="true"
+22-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:9:9-35
+23        android:theme="@style/AppTheme" >
+23-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:10:9-40
+24        <activity android:name="com.example.bhakoo.letusc.MainActivity" >
+24-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:11:9-17:20
+24-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:11:19-47
+25            <intent-filter>
+25-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:12:13-16:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:13:17-69
+26-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:13:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:15:17-77
+28-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:15:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.bhakoo.letusc.Tutorial" />
+31-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:18:9-46
+31-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:18:19-43
+32        <activity android:name="com.example.bhakoo.letusc.Questions" />
+32-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:19:9-47
+32-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:19:19-44
+33        <activity android:name="com.example.bhakoo.letusc.ListItemActivity1" />
+33-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:20:9-55
+33-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:20:19-52
+34        <activity android:name="com.example.bhakoo.letusc.ListItemActivity2" />
+34-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:21:9-55
+34-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:21:19-52
+35        <activity android:name="com.example.bhakoo.letusc.ListItemActivity3" />
+35-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:22:9-55
+35-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:22:19-52
+36        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4" />
+36-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:23:9-55
+36-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:23:19-52
+37        <activity android:name="com.example.bhakoo.letusc.ListItemActivity5" />
+37-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:24:9-55
+37-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:24:19-52
+38        <activity android:name="com.example.bhakoo.letusc.ListItemActivity6" />
+38-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:25:9-55
+38-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:25:19-52
+39        <activity android:name="com.example.bhakoo.letusc.ListItemActivity7" />
+39-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:26:9-55
+39-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:26:19-52
+40        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8" />
+40-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:27:9-55
+40-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:27:19-52
+41        <activity android:name="com.example.bhakoo.letusc.ListItemActivity9" />
+41-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:28:9-55
+41-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:28:19-52
+42        <activity android:name="com.example.bhakoo.letusc.ListItemActivity10" />
+42-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:29:9-56
+42-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:29:19-53
+43        <activity android:name="com.example.bhakoo.letusc.ListItemActivity2_1" />
+43-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:30:9-57
+43-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:30:19-54
+44        <activity android:name="com.example.bhakoo.letusc.ListItemActivity3_1" />
+44-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:31:9-57
+44-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:31:19-54
+45        <activity android:name="com.example.bhakoo.letusc.ListItemActivity3_2" />
+45-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:32:9-57
+45-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:32:19-54
+46        <activity android:name="com.example.bhakoo.letusc.ListItemActivity3_3" />
+46-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:33:9-57
+46-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:33:19-54
+47        <activity android:name="com.example.bhakoo.letusc.ListItemActivity3_4" />
+47-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:34:9-57
+47-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:34:19-54
+48        <activity android:name="com.example.bhakoo.letusc.ListItemActivity3_5" />
+48-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:35:9-57
+48-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:35:19-54
+49        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4_1" />
+49-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:36:9-57
+49-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:36:19-54
+50        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4_2" />
+50-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:37:9-57
+50-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:37:19-54
+51        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4_3" />
+51-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:38:9-57
+51-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:38:19-54
+52        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4_4" />
+52-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:39:9-57
+52-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:39:19-54
+53        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4_5" />
+53-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:40:9-57
+53-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:40:19-54
+54        <activity android:name="com.example.bhakoo.letusc.ListItemActivity4_6" />
+54-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:41:9-57
+54-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:41:19-54
+55        <activity android:name="com.example.bhakoo.letusc.ListItemActivity5_1" />
+55-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:42:9-57
+55-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:42:19-54
+56        <activity android:name="com.example.bhakoo.letusc.ListItemActivity5_2" />
+56-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:43:9-57
+56-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:43:19-54
+57        <activity android:name="com.example.bhakoo.letusc.ListItemActivity5_3" />
+57-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:44:9-57
+57-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:44:19-54
+58        <activity android:name="com.example.bhakoo.letusc.ListItemActivity5_4" />
+58-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:45:9-57
+58-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:45:19-54
+59        <activity android:name="com.example.bhakoo.letusc.ListItemActivity6_1" />
+59-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:46:9-57
+59-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:46:19-54
+60        <activity android:name="com.example.bhakoo.letusc.ListItemActivity6_2" />
+60-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:47:9-57
+60-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:47:19-54
+61        <activity android:name="com.example.bhakoo.letusc.ListItemActivity6_3" />
+61-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:48:9-57
+61-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:48:19-54
+62        <activity android:name="com.example.bhakoo.letusc.ListItemActivity6_4" />
+62-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:49:9-57
+62-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:49:19-54
+63        <activity android:name="com.example.bhakoo.letusc.ListItemActivity6_5" />
+63-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:50:9-57
+63-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:50:19-54
+64        <activity android:name="com.example.bhakoo.letusc.ListItemActivity7_1" />
+64-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:51:9-57
+64-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:51:19-54
+65        <activity android:name="com.example.bhakoo.letusc.ListItemActivity7_2" />
+65-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:52:9-57
+65-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:52:19-54
+66        <activity android:name="com.example.bhakoo.letusc.ListItemActivity7_3" />
+66-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:53:9-57
+66-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:53:19-54
+67        <activity android:name="com.example.bhakoo.letusc.ListItemActivity7_4" />
+67-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:54:9-57
+67-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:54:19-54
+68        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_1" />
+68-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:55:9-57
+68-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:55:19-54
+69        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_2" />
+69-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:56:9-57
+69-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:56:19-54
+70        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_3" />
+70-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:57:9-57
+70-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:57:19-54
+71        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_4" />
+71-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:58:9-57
+71-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:58:19-54
+72        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_5" />
+72-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:59:9-57
+72-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:59:19-54
+73        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_6" />
+73-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:60:9-57
+73-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:60:19-54
+74        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_7" />
+74-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:61:9-57
+74-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:61:19-54
+75        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_8" />
+75-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:62:9-57
+75-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:62:19-54
+76        <activity android:name="com.example.bhakoo.letusc.ListItemActivity8_9" />
+76-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:63:9-57
+76-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:63:19-54
+77        <activity android:name="com.example.bhakoo.letusc.ListItemActivity9_1" />
+77-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:64:9-57
+77-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:64:19-54
+78        <activity android:name="com.example.bhakoo.letusc.ListItemActivity10_1" />
+78-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:65:9-58
+78-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:65:19-55
+79        <activity android:name="com.example.bhakoo.letusc.ListItemActivity10_2" />
+79-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:66:9-58
+79-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:66:19-55
+80        <activity android:name="com.example.bhakoo.letusc.ListItemActivity10_3" />
+80-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:67:9-58
+80-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:67:19-55
+81        <activity android:name="com.example.bhakoo.letusc.ListItemActivity10_4" />
+81-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:68:9-58
+81-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:68:19-55
+82        <activity android:name="com.example.bhakoo.letusc.ListItemActivity1_1" />
+82-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:69:9-57
+82-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:69:19-54
+83        <activity android:name="com.example.bhakoo.letusc.ListItemActivity1_2" />
+83-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:70:9-57
+83-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:70:19-54
+84        <activity android:name="com.example.bhakoo.letusc.compiler" />
+84-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:71:9-55
+84-->F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:71:19-43
+85    </application>
+86
+87</manifest>

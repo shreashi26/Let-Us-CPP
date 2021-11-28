@@ -1,0 +1,84 @@
+Array is a fixed size collection of similar data type items.  Arrays are used to store and access group of data of same data type. <br>
+Arrays can of any data type. Arrays must have constant size. Continuous memory locations are used to store array. <br>
+It is an aggregate data type that lets you access multiple variables through a single name by use of an index. Array index always starts with 0.<br><br> 
+
+<b>Example for Arrays:</b><br>
+int a[5];       // integer array<br>
+char a[5];   // character(string) array <br>
+
+In the above example, we declare an array named a. When used in an array definition, the subscript operator ([]) is used to tell the compiler how many variables to allocate. 
+In this case, we’re allocating 5 integers/character. Each of these variables in an array is called an element.<br><br>
+
+<b>Types of Arrays:<br></b>
+# One Dimensional Array<br>
+# Two Dimensional Array<br>
+# Multi Dimensional Array <br><br>
+
+<b><font color="#E91E00">1 One Dimensional Array</font></b><br><br>
+
+<b>Array declaration </b><br>
+int age [5];<br><br>
+<b>Array initialization </b><br>
+int age[5]={0, 1, 2, 3, 4, 5};<br><br>
+<b>Accessing array </b><br>
+age[0]; /*0_is_accessed*/<br>
+age[1]; /*1_is_accessed*/<br>
+age[2]; /*2_is_accessed*/<br><br>
+
+<b><font color="#E91E00">2 Two Dimensional Array</font></b><br><br>
+
+Two dimensional array is combination of rows n columns.<br>
+<b>Array declaration</b><br>
+int arr[2][2];<br><br>
+<b>Array initialization</b><br>
+int arr[2][2] = {{1,2}, {3,4}};<br><br>
+<b>Accessing array</b><br>
+arr [0][0] = 1; <br>
+arr [0][1] = 2;<br>
+arr [1][0] = 3;<br>
+arr [1][1] = 4;<br><br>
+
+<b><font color="#E91E00">3 Multi Dimensional Array</font></b><br><br>
+C++ programming language allows programmer to create arrays of arrays known as multidimensional arrays.<br> 
+For example:<br>
+float a[2][4][3];<br><br>
+
+<b><font color="#E91E00">Pointer to an array</font></b><br><br>
+Please go through pointers chapter first to understand this<br>
+An array name is a constant pointer to the first element of the array. Therefore, in the declaration:
+<br>double balance[50];<br><br>
+balance is a pointer to &balance[0], which is the address of the first element of the array balance. Thus, the following program fragment assigns p the address of the first element of balance:
+<br>double *p;<br>
+double balance[10];<br>
+p = balance;<br><br>
+It is legal to use array names as constant pointers, and vice versa. Therefore, *(balance + 4) is a legitimate way of accessing the data at balance[4].<br><br>
+
+
+<b><font color="#E91E00">Passing Array To Function</font></b><br><br>
+We can pass entire Arrays to functions as an argument.<br>
+
+For eg.<br>
+#include <iostream.h><br>
+void display(int a)<br>
+{ <br>
+&nbsp int i;<br>
+&nbsp for(i=0;i &lt 4;i++){<br>
+&nbsp &nbsp cout &lt;&lt; a[i];<br>
+&nbsp }<br>
+}<br>
+int main(){<br>
+&nbsp int c[]={1,2,3,4};<br>
+&nbsp display(c);  <br>&nbsp //Passing array to display.<br>
+&nbsp return 0;<br>
+}<br><br>
+
+
+<b><font color="#E91E00">Return array from functions</font></b><br><br>
+C++ does not allow to return an entire array as an argument to a function. However, You can return a pointer to an array by specifying the array's name without an index.<br>
+If you want to return a single-dimension array from a function, you would have to declare a function returning a pointer as in the following example:<br><br>
+int * myFunction()<br>
+{<br>
+int c[]={1,2,3}<br>.<br>.<br>.<br>
+return c<br>}<br><br>
+
+<b>See Programs section of this app for example of Arrays</b>

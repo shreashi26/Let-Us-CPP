@@ -1,0 +1,33 @@
+References are another variable type of C++ that act as an alias or short name to another variable. 
+A reference variable acts just like the original variable it is referencing. 
+References are declared by using an ampersand (&) between the reference type and the variable name.<br><br>
+
+<b><font color="#E91E00">Declaration</font></b><br>
+int distance = 5;<br>
+// normal integer<br>
+int &ref = distance; <br>
+// reference to distance<br>
+The ampersand in this context does not mean “address of”, it means “reference to”. <br><br>
+
+<b><font color="#E91E00">Use of reference</font></b><br>
+distance = 6;<br>
+// distance is now 6<br>
+ref = 7; <br>
+// distance is now 7<br><br>
+ 
+cout &lt;&lt; distance; // prints 7<br>
+distance++;<br>
+cout &lt;&lt; ref; // prints 8<br><br>
+
+Using the address-of operator on a reference returns the address of the value being referenced:<br>
+cout &lt;&lt; &distance; // prints 0012FF7C<br>
+cout &lt;&lt; &ref; // prints 0012FF7C<br><br>
+
+<b><font color="#E91E00">Const references</font></b><br>
+
+It is possible to declare a const reference. A const reference will not let you change the value it references:
+
+int distance = 5;<br>
+const int &ref = distance;<br><br>
+ 
+ref = 6; // illegal -- ref is const<br>

@@ -1,0 +1,40 @@
+Object Oriented Programming has a special feature called data abstraction. Data abstraction allows ignoring the details of how a data type is represented. 
+While defining a class, both member data and member functions are described. However while using an object (that is an instance of a class) 
+the built in data types and the members in the class are ignored. This is known as data abstraction. This can be seen from the above example.<br><br>
+
+<b><font color="#E91E00">Benefits of Data Abstraction</font></b><br><br>
+
+- Class internals are protected from inadvertent user-level errors, which might corrupt the state of the object.<br>
+- The class implementation may evolve over time in response to changing requirements or bug reports without requiring change in user-level code.<br><br>
+
+By defining data members only in the private section of the class, the class author is free to make changes in the data. 
+If the implementation changes, only the class code needs to be examined to see what affect the change may have. 
+If data are public, then any function that directly accesses the data members of the old representation might be broken.<br><br>
+
+<b><font color="#E91E00">Example</font></b><br>
+
+#include &lt;iostream.h><br>
+#include &lt;conio.h><br><br>
+
+class base{<br>
+private: int s1,s2;<br><br>
+public: void inp_val()<br>
+{<br>
+cout &lt;&lt;"input the values of s1 and s2 ";<br>
+cin>>sl>>s2;<br>
+}<br><br>
+
+void display()<br>
+{<br>
+cout &lt;&lt;s1 &lt;&lt;" "&lt;&lt;s2&lt;&lt;"\n ";<br>
+}<br>
+};<br><br>
+
+void main(){<br>
+base b;<br>
+b.inp_val();<br>
+b.display();<br>
+} <br><br>
+
+Above class takes numbers from user, and returns both. The public members inp_val and display are the interfaces to the outside world and 
+a user needs to know them to use the class. The private members s1 & s2 are something that the user doesn't need to know about, but is needed for the class to operate properly.

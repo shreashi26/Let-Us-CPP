@@ -1,0 +1,26 @@
+refers to where variables is declared. <br><br>
+It can be Inside a function or a block which is called local variables, In the definition of function parameters which is called formal parameters or Outside of all functions which is called global variables.<br><br>
+
+<b><font color="#E91E00">Global variables</font></b><br><br>
+
+ Global variable are declared outside any functions, usually at top of program.
+ they can be used by later blocks of code:<br>
+
+int g; //global<br>
+int main(void)<br>
+{<br>
+	g = 0;<br>
+}<br><br>
+
+
+<b><font color="#E91E00">Local variables</font></b><br><br>
+Variables that are declared inside a function or block are local variables.
+The scope of local variables will be within the function only.
+These variables are declared within the function and can't be accessed outside the function.<br>
+
+void main()<br>
+{<br>
+	int g; //local<br>
+	g=2;<br>
+	cout &lt;&lt; g;<br>
+}<br>

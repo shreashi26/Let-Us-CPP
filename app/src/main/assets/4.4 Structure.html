@@ -1,0 +1,43 @@
+In Array we can store data of one type only, but structure is a variable that gives facility of 
+storing data of different data type in one variable.<br><br>
+
+Structures are variables that have several parts; each part of the object can have different types.<br> 
+Each part of the structure is called a member of the structure.<br><br>
+
+<b><font color="#E91E00"># Declaration</font></b><br>
+Consider basic data of student :<br>roll_no, class, name, age, address.<br><br>
+A structure data type called student can hold all this information:<br>
+struct student {<br>
+	int roll_no<br>
+	char class<br>
+	char name[25];<br>
+	int age;<br>
+	char address[50];<br>
+};<br><br>
+
+before the final semicolon, At the end of the structure's definition, we can specify one or more structure variables.<br><br>  
+There is also another way of declaring variables given below,<br>
+struct student s1;<br><br>
+
+<b><font color="#E91E00"># Initialization</font></b><br>
+Structure members can be initialized at declaration. This is same as the initialization of arrays; 
+the values are listed inside braces. The structure declaration is preceded by the keyword static.<br><br>
+static struct student akki ={1234,''comp'',''akki'',20,''mumbai''};<br><br>
+
+<b><font color="#E91E00"># Accessing structure data</font></b><br>
+To access a given member the dot notation is use. The ''dot'' is called the member access operator<br><br>
+struct student s1;<br>
+s1.name = ''Akki'';<br>
+s1.roll_no = 1234<br><br>
+
+<b><font color="#E91E00"># scope</font></b><br>
+A structure type declaration can be local or global, depending upon where the declaration is made.<br><br>
+
+
+<b><font color="#E91E00"># Structures as Function Arguments</font></b><br>
+You can pass a structure as a function argument in very similar way as you pass any other variable or pointer. You
+would access structure variables in the similar way as you have accessed in the above example<br><br>
+
+<b><font color="#E91E00"># Pointers to Structures</font></b><br>
+You can define pointers to structures in very similar way as you define pointer to any other variable as follows:<br>
+struct student *struct_pointer;

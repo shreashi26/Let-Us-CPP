@@ -1,0 +1,103 @@
+An operator is a symbol. Compiler identifies Operator and performs specific mathematical or logical operation.
+C provides following operators : <br>
+# Arithmetic Operators<br>
+# Logical Operators<br>
+# Increment and Decrement Operators<br>
+# Relational Operators<br>
+# Cast Operators<br>
+# Bitwise Operators<br>
+# Assignment Operators<br>
+# Misc<br><br>
+
+<b><font color="#E91E00">Arithmetic Operators</font></b><br>
+<font color="#9400D3">
+* multiplication<br>
+/ division<br>
+% remainder after division (modulo arithmetic)<br>
++ addition<br>
+- subtraction and unary minus<br><br></font>
+
+<b><font color="#E91E00">Logical Operators</font></b><br>
+<b>&&</b> Called Logical AND operator. If both the operands are non-zero, then condition becomes true.<br><br>
+<b>||</b> Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true.<br><br>
+<b>!</b> Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true, then Logical NOT operator will make false.<br><br>
+
+<b><font color="#E91E00">Increment and Decrement Operators</font></b><br>
+Increment and decrement operators are used to add or subtract 1 from the current value of oprand.<br><br>
+<font color="#9400D3">
+++ increment<br>
+-- decrement<br><br></font>
+
+Increment and Decrement operators can be prefix or postfix.  
+In the prefix style the value of oprand is changed before the result of expression and in the postfix style the variable is modified after result.<br><br>
+For eg.<br>
+a = 9;<br>
+b = a++ + 5;    /* a=10 b=14 */<br>
+a = 9;<br>
+b = ++a + 5; /* a=10 b=15 */<br><br>
+
+<b><font color="#E91E00">Relational Operators</font></b><br>
+<font color="#9400D3">
+==  equal.<br>
+!= Not equal.<br>
+> < Greater than/less than<br>
+>= greater than or equal to <br>
+&lt;= less than or equal to <br><br></font>
+
+<b><font color="#E91E00">Cast Operators</font></b><br>
+
+Cast operators are used to convert a value from one to another type.<br>
+(float) sum; &nbsp     converts type to float<br>
+(int) fred;  &nbsp     converts type to int<br><br>
+
+<b><font color="#E91E00">Bitwise Operators </font></b><br>
+
+Bitwise operators performs operation on actual bits present in each byte of a variable. 
+Each byte contain 8 bits, each bit can store the value 0 or 1 <br><br>
+<font color="#9400D3">
+~ one's complement<br>
+& bitwise AND<br>
+^ bitwise XOR<br>
+| bitwise OR<br>
+&lt;&lt; left shift (binary multiply by 2)<br>
+>> right shift (binary divide by 2)<br><br></font>
+
+<b><font color="#E91E00">Assignment Operators</font></b><br>
+
+<font color="#9400D3">= assign<br>
++= assign with add<br>
+-= assign with subtract<br>
+*= assign with multiply<br>
+/= assign with divide<br>
+%= assign with remainder<br>
+>>= assign with right shift<br>
+&lt;&lt;= assign with left shift<br>
+&= assign with bitwise  AND <br>
+^= assign with bitwise  XOR<br>
+|= assign with bitwise  OR<br><br></font>
+
+For example,<br>a = a + 64; is same as <br>a += 64;<br><br>
+
+
+<b><font color="#E91E00">Misc</font></b><br>
+<b>sizeof</b><br>
+The sizeof operator returns the size, in bytes, of a type or a variable.<br>
+You can compile and run the following program to find out how large your data types are:<br>
+cout &lt;&lt; "bool:\t\t" &lt;&lt; sizeof(bool) &lt;&lt; " bytes";<br>
+bool: 1 bytes<br><br>
+
+<b>Condition ? X : Y</b><br>
+Condition operator:  If Condition is true ? then it returns value X : otherwise value Y<br><br>
+
+<b>,</b><br>
+ Comma operator causes a sequence of operations to be performed. The value of the entire comma expression is the value of the last expression of the comma-separated list<br><br>
+ 
+<b>. (dot) and -> (arrow)</b><br>
+Member operators are used to reference individual members of classes, structures, and unions.<br><br>
+
+
+<b>&</b> 
+Pointer operator: & returns the address of an variable. For example &a; will give actual address of the variable.<br><br>
+
+<b>*</b>
+Pointer operator: * is pointer to a variable. For example *var; will pointer to a variable var.<br> 

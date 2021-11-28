@@ -1,0 +1,7 @@
+#Wed May 31 07:12:03 IST 2017
+base.0=E\:\\STUDY\\SEMESTER VI\\MINOR PROJECT\\FINAL\\LetUsC++\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_33d893766ba9ed415f473aebb263db4a80c044c8
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\STUDY\\SEMESTER VI\\MINOR PROJECT\\FINAL\\LetUsC++\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61887645a1955d13fc3d46bd81f472e352d3f859\\classes.dex
+base.1=E\:\\STUDY\\SEMESTER VI\\MINOR PROJECT\\FINAL\\LetUsC++\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_61887645a1955d13fc3d46bd81f472e352d3f859
+file.0=E\:\\STUDY\\SEMESTER VI\\MINOR PROJECT\\FINAL\\LetUsC++\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_33d893766ba9ed415f473aebb263db4a80c044c8\\classes.dex

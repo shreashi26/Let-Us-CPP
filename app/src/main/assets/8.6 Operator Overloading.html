@@ -1,0 +1,41 @@
+Operator overloading is an important concept in C++. It is a type of polymorphism in which an operator is overloaded to give user defined meaning to it. 
+Overloaded operator is used to perform operation on user-defined data type.<br><br>
+
+Overloaded operators are functions with special names the keyword operator followed by the symbol for the operator being defined. 
+Like any other function, an overloaded operator has a return type and a parameter list.<br><br>
+
+Almost any operator can be overloaded in C++. However there are few operator which can not be overloaded. Operator that are not overloaded are follows<br>
+
+- scope operator - <b>::</b><br>
+- <b>sizeof</b><br>
+- member selector - <b>.</b><br>
+- member pointer selector - <b>*</b><br>
+- ternary operator - <b>?:</b><br><br>
+
+<b><font color="#E91E00">Syntax</font></b><br>
+<i>Return_type class_name :: operator operator_symbol(argument_list)<br>
+{<br>
+//function body<br>
+}</i><br><br>
+
+here operator is keyword and operator_symbol is operator to be overloaded.<br><br>
+
+ <b><font color="#E91E00">Implementing Operator Overloading</font></b><br>
+Operator overloading can be done by implementing a function which can be :<br>
+
+Member Function<br>
+Non-Member Function<br>
+Friend Function<br><br>
+Operator overloading function can be a member function if the Left operand is an Object of that class, but if the Left operand is different, 
+then Operator overloading function must be a non-member function.<br>
+
+Operator overloading function can be made friend function if it needs access to the private and protected members of class.<br><br>
+
+<b><font color="#E91E00">Restrictions on Operator Overloading</font></b><br>
+
+Following are some restrictions to be kept in mind while implementing operator overloading.<br><br>
+
+- Precedence and Associativity of an operator cannot be changed.<br>
+- Arity (numbers of Operands) cannot be changed. Unary operator remains unary, binary remains binary etc.<br>
+- No new operators can be created, only existing operators can be overloaded.<br>
+- Cannot redefine the meaning of a procedure. You cannot change how integers are added.

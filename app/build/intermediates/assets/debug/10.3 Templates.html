@@ -1,0 +1,21 @@
+Templates in C++ programming allows function or class to work on more than one data type at once without writing different codes for different data types. 
+Templates are often used in larger programs for the purpose of code reusability and flexibility of program. 
+The concept of templetes can be used in two different ways:<br>
+- Function Template<br>
+- Class Template<br><br>
+<b><font color="#E91E00">Function Template</font></b><br>
+A function templates work in similar manner as function but with one key difference. 
+A single function template can work on different types at once but, different functions are needed to perform identical task on different data types.<br><br>
+The general form of a template function definition is shown here:<br>
+<i>template &lt;class type> ret-type func-name(parameter list)<br>
+{<br>
+// body of function<br>
+}</i><br><br>
+Here, type is a placeholder name for a data type used by the function. This name can be used within the function definition.<br><br>
+<b><font color="#E91E00">Class Template</font></b><br>
+
+Just as we can define function templates, we can also define class templates. The general form of a generic class declaration is shown here:<br><br>
+<i>template &lt;class type> class class-name {<br>
+. <br>. <br>.<br> 
+}</i><br><br>
+Here, type is the placeholder type name, which will be specified when a class is instantiated. You can define more than one generic data type by using a comma-separated list.

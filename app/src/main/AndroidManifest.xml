@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bhakoo.letusc">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tutorial" />
+        <activity android:name=".Questions" />
+        <activity android:name=".ListItemActivity1" />
+        <activity android:name=".ListItemActivity2" />
+        <activity android:name=".ListItemActivity3" />
+        <activity android:name=".ListItemActivity4" />
+        <activity android:name=".ListItemActivity5" />
+        <activity android:name=".ListItemActivity6" />
+        <activity android:name=".ListItemActivity7" />
+        <activity android:name=".ListItemActivity8" />
+        <activity android:name=".ListItemActivity9" />
+        <activity android:name=".ListItemActivity10" />
+        <activity android:name=".ListItemActivity2_1" />
+        <activity android:name=".ListItemActivity3_1" />
+        <activity android:name=".ListItemActivity3_2" />
+        <activity android:name=".ListItemActivity3_3" />
+        <activity android:name=".ListItemActivity3_4" />
+        <activity android:name=".ListItemActivity3_5" />
+        <activity android:name=".ListItemActivity4_1" />
+        <activity android:name=".ListItemActivity4_2" />
+        <activity android:name=".ListItemActivity4_3" />
+        <activity android:name=".ListItemActivity4_4" />
+        <activity android:name=".ListItemActivity4_5" />
+        <activity android:name=".ListItemActivity4_6" />
+        <activity android:name=".ListItemActivity5_1" />
+        <activity android:name=".ListItemActivity5_2" />
+        <activity android:name=".ListItemActivity5_3" />
+        <activity android:name=".ListItemActivity5_4" />
+        <activity android:name=".ListItemActivity6_1" />
+        <activity android:name=".ListItemActivity6_2" />
+        <activity android:name=".ListItemActivity6_3" />
+        <activity android:name=".ListItemActivity6_4" />
+        <activity android:name=".ListItemActivity6_5" />
+        <activity android:name=".ListItemActivity7_1" />
+        <activity android:name=".ListItemActivity7_2" />
+        <activity android:name=".ListItemActivity7_3" />
+        <activity android:name=".ListItemActivity7_4" />
+        <activity android:name=".ListItemActivity8_1" />
+        <activity android:name=".ListItemActivity8_2" />
+        <activity android:name=".ListItemActivity8_3" />
+        <activity android:name=".ListItemActivity8_4" />
+        <activity android:name=".ListItemActivity8_5" />
+        <activity android:name=".ListItemActivity8_6" />
+        <activity android:name=".ListItemActivity8_7" />
+        <activity android:name=".ListItemActivity8_8" />
+        <activity android:name=".ListItemActivity8_9" />
+        <activity android:name=".ListItemActivity9_1" />
+        <activity android:name=".ListItemActivity10_1" />
+        <activity android:name=".ListItemActivity10_2" />
+        <activity android:name=".ListItemActivity10_3" />
+        <activity android:name=".ListItemActivity10_4" />
+        <activity android:name=".ListItemActivity1_1" />
+        <activity android:name=".ListItemActivity1_2" />
+        <activity android:name=".compiler"></activity>
+    </application>
+
+</manifest>

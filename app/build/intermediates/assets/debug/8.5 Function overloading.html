@@ -1,0 +1,34 @@
+You can have multiple definitions for the same function name in the same scope. 
+The definition of the function must differ from each other by the types and/or the number of arguments in the argument list. 
+You can not overload function declarations that differ only by return type.<br><br>
+
+// overloading functions<br>
+#include &lt;iostream.h><br>
+using namespace std;<br><br>
+
+int add (int a, int b)<br>
+{<br>
+  return (a+b);<br>
+}<br><br>
+
+double add (double a, double b)<br>
+{<br>
+  return (a+b);<br>
+}<br><br>
+
+int main ()<br>
+{<br>
+  int x=5,y=2;<br>
+  double n=5.0,m=2.5;<br><br>
+  cout &lt;&lt; add(x,y) &lt;&lt; '\n';<br>
+  cout &lt;&lt; add(n,m) &lt;&lt; '\n';<br>
+  return 0;<br>
+}<br><br>
+
+o/p:<br>
+7<br>
+7.5<br><br>
+
+In this example, there are two functions called add, but one of them has two parameters of type int, while the other has them of type double. The compiler knows which one to call in each case by examining the types passed as arguments when the function is called. If it is called with two int arguments, it calls to the function that has two int parameters, and if it is called with two doubles, it calls the one with two doubles.<br><br>
+
+Note that a function cannot be overloaded only by its return type. At least one of its parameters must have a different type.

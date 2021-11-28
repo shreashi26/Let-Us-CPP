@@ -1,0 +1,25 @@
+<b><font color="#E91E00">auto</font></b><br>
+The default class. 
+Automatic variables are local to their block. Their storage space is reclaimed on exit from the block.<br><br>
+
+<b><font color="#E91E00">register </font></b><br>
+If possible, the variable will be stored in a processor register. 
+May give faster access to the variable. If register storage is not possible, 
+then the variable will be of automatic class. <br>
+Use of the register class is not recommended, as the compiler should be able to 
+make better judgement about which variables to hold in registers, 
+in fact injudicious use of register variables may slow down the program.<br><br>
+
+<b><font color="#E91E00">static </font></b><br>
+On exit from block, static variables are not reclaimed. 
+They keep their value. On re-entry to the block the variable will have its old value. <br><br>
+
+<b><font color="#E91E00">extern </font></b><br>
+Allows access to external variables. An external variable is either a global variable 
+or a variable defined in another source file. 
+External variables are defined outside of any function. 
+(Note: Variables passed to a function and modified by way of a pointer are not external variables)<br><br>
+
+<b><font color="#E91E00">static external </font></b><br>
+External variables can be accessed by any function in any source file which make up the final program. 
+Static external variables can only be accessed by functions in the same file as the variable declaration.

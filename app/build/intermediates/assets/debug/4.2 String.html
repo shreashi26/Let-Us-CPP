@@ -1,0 +1,35 @@
+A string is simply an array of characters which is terminated by a null character '\0' which shows the end of the string. <br>
+Strings are always enclosed by double quotes. Whereas, character is enclosed by single quotes in C. <br><br>
+
+This declaration and initialization create a string with the word  "AKKI".<br>
+To hold the \0 (null character) at the end of the array, the size of  array is one more than the number of characters in the word "AKKI".<br><br>
+char my_name[5] = {'A', 'K', 'K', 'I','\0'};<br><br>
+we can also write the above statement as follows:<br>
+char my_name[] = "AKKI";<br><br>
+
+<b><font color="#E91E00">C String functions</font></b><br><br>
+To use string functions programmer must import String.h header file. <br>
+String.h header file supports all the string functions in C language. <br><br>
+All the string functions are given below.<br>
+
+<b>1 strcat ( ) 	</b>Concatenates str2 at the end of str1.<br><br>
+<b>2 strncat ( ) 	 </b>appends a portion of string to another<br><br>
+<b>3 strcpy ( ) 	 </b>Copies str2 into str1<br><br>
+<b>4 strncpy ( ) 	 </b>copies given number of characters of one string to another<br><br>
+<b>5 strlen ( ) 	 </b>gives the length of str1.<br><br>
+<b>6 strcmp ( ) 	 </b>Returns 0 if str1 is same as str2. Returns <0 if strl < str2. Returns >0 if str1 > str2.<br><br>
+<b>7 strcmpi ( ) 	 </b>Same as strcmp() function. But, this function negotiates case.  ''A'' and ''a'' are treated as same.<br><br>
+<b>8 strchr ( ) 	 </b>Returns pointer to first occurrence of char in str1.<br><br>
+<b>9 strrchr ( ) 	 </b>last occurrence of given character in a string is found<br><br>
+<b>10 strstr ( ) 	 </b>Returns pointer to first occurrence of str2 in str1.<br><br>
+<b>11 strrstr ( ) 	 </b>Returns pointer to last occurrence of str2 in str1.<br><br>
+<b>12 strdup ( ) 	 </b>duplicates the string<br><br>
+<b>13 strlwr ( ) 	 </b>converts string to lowercase<br><br>
+<b>14 strupr ( ) 	 </b>converts string to uppercase<br><br>
+<b>15 strrev ( ) 	 </b>reverses the given string<br><br>
+<b>16 strset ( ) 	 </b>sets all character in a string to given character<br><br>
+<b>17 strnset ( ) 	 </b>It sets the portion of characters in a string to given character<br><br>
+<b>18 strtok ( ) 	 </b>tokenizing given string using delimiter<br><br>
+
+<b>See Programs section of this app for example of this functions</b>
+	

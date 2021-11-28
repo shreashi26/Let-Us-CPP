@@ -1,0 +1,36 @@
+<b><font color="#E91E00">while loop</font></b><br><br>
+The while loop calculates the expression before every loop. 
+If the expression is true then block of statements is executed, so it will not execute If the condition is initially false. It needs the parenthesis like the if statement.<br><br>
+while ( expression ) <br>/* while expression is true do following*/<br>
+&nbsp statements... ;<br><br>
+
+<b><font color="#E91E00">Do While loop</font></b><br>
+
+This is equivalent to a while loop, but it have test condition at the end of the loop. 
+The Do while loop will always execute at least once.<br><br>
+do<br>
+&nbsp statements ;<br>
+while ( expression );<br> /* while expression is true do...*/<br><br>
+
+<b><font color="#E91E00">For loop</font></b><br>
+
+This is very widely held loop.<br>
+For loops work like the corresponding while loop shown in the above example. 
+The first expression is treated as a statement and executed, then the second expression is test or condition which is evaluated to see if the body of the loop should be executed. 
+The third expression is increment or decrement which is performed at the end of every iteration/repetition of the loop.<br><br>
+for (expr1; expr2; expr3)<br>
+&nbsp statements...;<br><br>
+
+
+In while loop it can happen that the statement will never execute But In the do-while loop, test condition is based at the end of loop therefore the block of statement will always execute at least once. 
+This is the main difference between the while and the do-while loop.<br><br>
+
+For example, to execute a statement 5 times: <br><br>
+for (i = 0; i &lt; 5; i++)<br>
+&nbsp cout &lt;&lt; i &lt;&lt; endl;<br><br>
+
+Another way of doing this is:<br>
+i = 5;<br>
+while (i--)<br>
+&nbsp statements;<br><br>
+While using this method, make sure that value of i is greater than zero, or make the test i-->0.<br>

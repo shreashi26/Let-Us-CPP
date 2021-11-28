@@ -1,0 +1,116 @@
+Pointer is a variable that stores the address of another variable. They can make some things much easier, help improve your program's efficiency, 
+and even allow you to handle unlimited amounts of data. <br><br>
+Pointer is used to allocate memory dynamically i.e. at run time.
+The variable might be any of the data type such as int, float, char, double, short etc.<br><br>
+
+<b><font color="#E91E00">Syntax :</font></b><br>
+To declare a pointer, we use an asterisk between the data type and the variable name<br>
+Pointers require a bit of new syntax because when you have a pointer, you need the ability to both request the memory location it stores and the value stored at that memory location.<br>
+<i>data_type *ptr_name;</i><br><br>
+<b><font color="#E91E00">Example :</font></b><br>
+int *a; char *a;<br>
+
+Where, * is used to denote that ''a'' is pointer variable and not a normal variable.<br>
+In this context, the asterisk is not a multiplication<br><br>
+
+<b><font color="#E91E00">Key points to remember about pointers:</font></b><br>
+<b>#</b>    Normal variable stores the value whereas pointer variable stores the address of the variable.<br><br>
+<b>#</b>    The content of the pointer always be a whole number i.e. address.<br><br>
+<b>#</b>    Always pointer is initialized to null, i.e. int *p = null.<br><br>
+<b>#</b>    The value of null pointer is 0.<br><br>
+<b>#</b>    & symbol is used to get the address of the variable.<br><br>
+<b>#</b>    * symbol is used to get the value of the variable that the pointer is pointing to.<br><br>
+<b>#</b>    If pointer is assigned to NULL, it means it is pointing to nothing.<br><br>
+<b>#</b>    Two pointers can be subtracted to know how many elements are available between these two pointers.<br><br>
+<b>#</b>    But, Pointer addition, multiplication, division are not allowed.<br><br>
+<b>#</b>    The size of any pointer is 2 byte (for 16 bit compiler).<br><br>
+
+Since pointers only hold addresses, when we assign a value to a pointer, the value has to be an address. 
+To get the address of a variable, we can use the address-of operator (&)<br><br>
+
+
+<b><font color="#E91E00">Example program for pointer:</font></b><br>
+
+#include <iostream.h><br>
+int main()<br>
+{<br>
+int *ptr, q;<br>
+&nbsp q = 50;  <br> <br>
+&nbsp /* address of q is assigned to ptr */<br>
+&nbsp ptr = &q;     <br> <br>
+&nbsp // prints address held in ptr, which is &q<br>
+&nbsp cout &lt;&lt; ptr; <br><br>
+&nbsp /* display q's value using ptr variable */<br>      
+&nbsp cout &lt;&lt; *ptr; <br>
+&nbsp return 0;<br>
+}<br><br>
+
+
+<b><font color="#E91E00">The null pointer</font></b><br><br>
+Sometimes we need to make our pointers point to nothing. This is called a null pointer. We assign a pointer a null value by setting it to address 0:
+
+int *ptr;<br>
+ptr = 0;<br> 
+// assign address 0 to ptr<br>
+or simply <br>
+int *ptr = 0;<br>
+// assign address 0 to ptr<br><br>
+
+<b><font color="#E91E00">C++ Pointer Arithmetic</font></b><br><br>
+
+As you understood pointer is an address which is a numeric value; therefore, you can perform arithmetic 
+operations on a pointer just as you can a numeric value. There are four arithmetic operators that can be used on 
+pointers: ++, --, +, and -.<br><br>
+
+Example : <br>
+ptr++;<br>
+ptr--;<br>
+ptr+21;<br>
+ptr-10;<br><br>
+
+If a char pointer pointing to address 100 is incremented (ptr++) then it will point to memory address 101<br><br>
+
+<b><font color="#E91E00">C++ Pointers vs Arrays</font></b><br><br>
+
+Pointers and arrays are strongly related. In fact, pointers and arrays are interchangeable in many cases. For 
+example, a pointer that points to the beginning of an array can access that array by using either pointer arithmetic 
+or array-style indexing.<br><br>
+
+int main ()<br>
+{<br>
+int var[3] = {1, 2, 3};<br>
+int *ptr;<br>
+cout &lt;&lt; *ptr &lt;&lt; endl;<br>
+ptr++;<br>
+cout &lt;&lt; *ptr &lt;&lt; endl;<br>
+return 0;<br>
+}<br><br>
+
+this code will return : <br>
+1<br>
+2<br><br>
+
+<b><font color="#E91E00">C++ Pointer to Pointer</font></b><br><br>
+
+A pointer to a pointer is a form of multiple indirection or a chain of pointers. Normally, a pointer contains the 
+address of a variable. When we define a pointer to a pointer, the first pointer contains the address of the second 
+pointer, which points to the location that contains the actual value.
+
+int main ()<br>
+{<br>
+int var;<br>
+int *ptr;<br>
+int **pptr;<br>
+var = 3000;<br>
+ptr = &var;<br>
+pptr = &ptr;<br>
+cout &lt;&lt; "Value of var :" &lt;&lt; var &lt;&lt; endl;<br>
+cout &lt;&lt; "Value available at *ptr :" &lt;&lt; *ptr &lt;&lt; endl;<br>
+cout &lt;&lt; "Value available at **pptr :" &lt;&lt; **pptr &lt;&lt; endl;<br>
+return 0;<br>
+}<br><br>
+
+this code will return <br>
+Value of var :3000<br>
+Value available at *ptr :3000<br>
+Value available at **pptr :3000<br>

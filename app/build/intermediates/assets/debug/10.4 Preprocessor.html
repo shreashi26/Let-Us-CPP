@@ -1,0 +1,38 @@
+The preprocessors are the directives, which give instruction to the compiler to preprocess the information before actual compilation starts.<br>
+All preprocessor directives begin with #, and only white-space characters may appear before a preprocessor directive on a line. 
+Preprocessor directives are not C++ statements, so they do not end in a semicolon (;). We already know #include directive.<br><br>
+
+Different preprocessor directives (commands) perform different tasks. We can categorize the Preprocessor Directives as follows:<br>
+- Inclusion Directives
+- Macro Definition Directives
+- Conditional Compilation Directives
+
+<b><font color="#E91E00">Inclusion Directive</font></b><br>
+This category has only one directive, which is called #include. This inclusion directive is used to include files into the current file. The inclusion directive can be used as follows:<br>
+<b>#include &lt;stdio.h></b><br>	includes stdio.h from include folder<br>
+<b>#include&lt;iostream></b><br>	includes cpp class library header iostream<br>
+<b>#include&lt;my.cpp></b><br>	includes my.cpp file from include folder<br>
+<b>#include ''my.h''</b><br>	includes my.h file from current working folder<br><br>
+
+<b><font color="#E91E00">Macro Definition Directives</font></b><br>
+These are used to define macros, which are one, or more program statements (like functions) and they are expanded inline.<br>
+There are two directives for Macro Definition:<br>
+
+<b>#define</b> - Used to define a macro<br>
+<b>#undef</b> - Used to undefine a macro (The macro cannot be used after it is undefined.)<br><br>
+
+<b><font color="#E91E00">Conditional Compilation Directives</font></b><br>
+Conditional Compilation Directives these are used to execute statements conditionally for:<br>
+- Executing the code on different machine architectures.<br>
+- Debugging purposes.<br>
+- Macros can be dependent on other macros (must be defined before they are used.)<br>
+- Evaluating codes, which are to be executed depending upon the requirements of the programmer.<br><br>
+
+The following directives are included in this category:<br>
+#if<br>
+#elif<br>
+#endif<br>
+#ifdef<br>
+#ifndef<br><br><br>
+
+<b>Note:</b> These macros are evaluated on compile time. Therefore they can only use the predefined macros or literals. Most compilers do not support the use of variables with these directives.

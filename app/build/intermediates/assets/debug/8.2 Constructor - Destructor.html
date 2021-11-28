@@ -1,0 +1,52 @@
+<b><font color="#E91E63">Constructor</font></b><br>
+A constructor is a special kind of class member function that is executed when an object of that class is instantiated. <br>
+Constructors are typically used to initialize member variables of the class to appropriate default values, 
+or to allow the user to easily initialize those member variables to whatever values are desired.<br><br>
+
+Unlike normal functions, constructors have specific rules for how they must be named:<br>
+1) Constructors should always have the same name as the class (with the same capitalization)<br>
+2) Constructors have no return type (not even void)<br><br>
+
+A constructor that takes no parameters (or has all optional parameters) is called a default constructor but if you need, a constructor can have parameters. 
+This helps you to assign initial value to an object at the time of its creation.<br><br>
+
+<b><font color="#E91E00">Destructor</font></b><br>
+A destructor is another special kind of class member function that is executed when an object of that class is destroyed. 
+They are the counterpart to constructors. When a variable goes out of scope, or a dynamically allocated variable is explicitly deleted using the delete keyword, 
+the class destructor is called (if it exists) to help clean up the class before it is removed from memory. <br><br>
+For simple classes, a destructor is not needed because C++ will automatically clean up the memory for you.
+ However, if you have dynamically allocated memory, or if you need to do some kind of maintenance before the class is destroyed (eg. closing a file), 
+ the destructor is the perfect place to do so.<br><br>
+
+Like constructors, destructors have specific naming rules:<br>
+1) The destructor must have the same name as the class, preceded by a tilde (~).<br>
+2) The destructor can not take arguments.<br>
+3) The destructor has no return type.<br><br>
+
+Note that rule 2 implies that only one destructor may exist per class, as there is no way to overload destructors since they can not be differentiated from each other based on arguments.<br><br>
+
+
+<b><font color="#E91E00">Example</font></b><br>
+class abc <br>
+{<br>
+private :<br>
+int a,b;<br><br>
+
+public :<br>
+abc()//default constructor<br>
+{<br>
+a=0;<br>
+b=1;<br>
+}<br><br>
+
+abc(int x, int y) //Parametrized constructor<br>
+{<br>
+a=x;<br>
+b=y;<br>
+}<br><br>
+
+~abc(); //destructor<br>
+.<br>
+.<br>
+.<br>
+};

@@ -1,0 +1,42 @@
+Recursion is a programming technique that allows the programmer to express operations in terms of themselves.<br><br>
+In C++, this takes the form of a function that calls itself. A useful way to think of recursive functions is to imagine them as a 
+process being performed where one of the instructions is to "repeat the process". 
+This makes it sound very similar to a loop because it repeats the same code, and in some ways it is similar to looping. 
+On the other hand, recursion makes it easier to express ideas in which the result of the recursive call is necessary to complete the task. 
+Of course, it must be possible for the "process" to sometimes be completed without the recursive call.<br><br>
+
+void CountDown(int nValue)<br>
+{<br>
+    using namespace std;<br>
+    cout &lt;&lt; nValue &lt;&lt; endl;<br>
+    CountDown(nValue-1);<br>
+}<br><br>
+ 
+int main(void)<br>
+{<br>
+    CountDown(10);<br>
+    return 0;<br>
+}<br><br>
+
+When CountDown(10) is called, the number 10 is printed, and CountDown(9) is called. CountDown(9) prints 9 and calls CountDown(8). CountDown(8) prints 8 and calls CountDown(7). The sequence of CountDown(n) calling CountDown(n-1) is continually repeated, effectively forming the recursive equivalent of an infinite loop.<br><br>
+
+This program illustrates the most important point about recursive functions: you must include a termination condition, or they will run “forever” (or until the call stack runs out of memory).<br>
+
+Stopping a recursive function generally involves using an if statement. Here is our function redesigned with a termination condition:<br><br>
+
+void CountDown(int nValue)<br>
+{<br>
+    using namespace std;<br>
+    cout &lt;&lt; nValue &lt;&lt; endl;<br><br>
+ 
+    // termination condition<br>
+    if (nValue > 0)<br>
+        CountDown(nValue-1);<br>
+}<br><br>
+ 
+int main(void)<br>
+{<br>
+    CountDown(10);<br>
+    return 0;<br>
+}<br><br>
+Now when we run our program, CountDown() will count down to 0 and then stop!

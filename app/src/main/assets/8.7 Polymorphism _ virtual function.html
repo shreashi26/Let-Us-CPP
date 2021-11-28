@@ -1,0 +1,32 @@
+<b><font color="#E91E00">Polymorphism</font></b><br>
+
+"Poly" means "many" and "morph" means "form". Polymorphism is the ability of an object (or reference) to assume (be replaced by) or become many different forms of object. 
+Typically, polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.<br><br>
+C++ polymorphism means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function.
+Example: function overloading, virtual functions. Another example can be a plus <b>+</b> sign, used for adding two integers or for using it to concatenate two strings.  <br><br>
+
+<b><font color="#E91E00">Virtual Function:</font></b><br>
+
+A virtual function is a function in a base class that is declared using the keyword virtual. Defining in a base class a virtual function, 
+with another version in a derived class, signals to the compiler that we don't want static linkage for this function.<br>
+What we do want is the selection of the function to be called at any given point in the program to be based on the 
+kind of object for which it is called. This sort of operation is referred to as dynamic linkage, or late binding.<br><br>
+
+class Shape {<br>
+protected:<br>
+int width, height;<br><br>
+public:<br>
+Shape( int a=0, int b=0)<br>
+{<br>
+width = a;<br>
+height = b;<br>
+}<br><br>
+// pure virtual function<br>
+virtual int area() = 0;<br>
+};<br><br>
+
+<b><font color="#E91E00">Important Points to Remember</font></b><br>
+
+1. Only the Base class Method's declaration needs the Virtual Keyword, not the definition.<br>
+2. If a function is declared as virtual in the base class, it will be virtual in all its derived classes.<br>
+3. The address of the virtual Function is placed in the VTABLE and the copiler uses VPTR(vpointer) to point to the Virtual Function.

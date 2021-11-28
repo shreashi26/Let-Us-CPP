@@ -1,0 +1,392 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+MERGED from [com.android.support.test.espresso:espresso-core:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\7796aec8c4c61904707f9281d049ad9a\espresso-core-2.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.test:rules:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\efdbfee73e2883ed73f1148e5327595c\rules-0.5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.test:runner:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\823a5b45dcef199b9ff62dfaa348c196\runner-0.5\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\c475b8a10723b6353847ba3a33967736\espresso-idling-resource-2.2.2\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\48a993b2ddbb797a4851413abdde09cd\recyclerview-v7-25.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\23238898cfbb052be819c2cbe8801266\exposed-instrumentation-api-publish-0.5\AndroidManifest.xml:17:1-26:12
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:1-74:12
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:5:5-72:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.test:runner:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\823a5b45dcef199b9ff62dfaa348c196\runner-0.5\AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:runner:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\823a5b45dcef199b9ff62dfaa348c196\runner-0.5\AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\c475b8a10723b6353847ba3a33967736\espresso-idling-resource-2.2.2\AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\c475b8a10723b6353847ba3a33967736\espresso-idling-resource-2.2.2\AndroidManifest.xml:24:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\23238898cfbb052be819c2cbe8801266\exposed-instrumentation-api-publish-0.5\AndroidManifest.xml:24:5-20
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\23238898cfbb052be819c2cbe8801266\exposed-instrumentation-api-publish-0.5\AndroidManifest.xml:24:5-20
+	android:supportsRtl
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:7:9-38
+	android:allowBackup
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.bhakoo.letusc.MainActivity
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.example.bhakoo.letusc.Tutorial
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:18:9-46
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:18:19-43
+activity#com.example.bhakoo.letusc.Questions
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:19:9-47
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:19:19-44
+activity#com.example.bhakoo.letusc.ListItemActivity1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:20:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:20:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:21:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:21:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:22:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:22:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:23:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:23:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity5
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:24:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:24:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity6
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:25:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:25:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity7
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:26:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:26:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity8
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:27:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:27:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity9
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:28:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:28:19-52
+activity#com.example.bhakoo.letusc.ListItemActivity10
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:29:19-53
+activity#com.example.bhakoo.letusc.ListItemActivity2_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:30:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:30:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity3_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:31:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:31:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity3_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:32:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:32:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity3_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:33:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:33:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity3_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:34:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:34:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity3_5
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:35:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:35:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity4_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:36:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:36:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity4_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:37:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:37:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity4_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:38:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:38:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity4_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:39:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:39:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity4_5
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:40:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:40:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity4_6
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:41:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:41:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity5_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:42:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:42:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity5_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:43:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:43:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity5_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:44:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:44:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity5_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:45:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:45:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity6_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:46:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:46:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity6_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:47:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:47:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity6_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:48:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:48:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity6_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:49:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:49:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity6_5
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:50:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:50:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity7_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:51:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:51:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity7_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:52:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:52:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity7_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:53:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:53:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity7_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:54:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:54:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:55:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:55:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:56:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:56:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:57:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:57:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:58:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:58:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_5
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:59:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:59:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_6
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:60:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:60:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_7
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:61:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:61:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_8
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:62:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:62:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity8_9
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:63:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:63:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity9_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:64:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:64:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity10_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:65:9-58
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:65:19-55
+activity#com.example.bhakoo.letusc.ListItemActivity10_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:66:9-58
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:66:19-55
+activity#com.example.bhakoo.letusc.ListItemActivity10_3
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:67:9-58
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:67:19-55
+activity#com.example.bhakoo.letusc.ListItemActivity10_4
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:68:9-58
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:68:19-55
+activity#com.example.bhakoo.letusc.ListItemActivity1_1
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:69:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:69:19-54
+activity#com.example.bhakoo.letusc.ListItemActivity1_2
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:70:9-57
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:70:19-54
+activity#com.example.bhakoo.letusc.compiler
+ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:71:9-55
+	android:name
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml:71:19-43
+uses-sdk
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.test.espresso:espresso-core:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\7796aec8c4c61904707f9281d049ad9a\espresso-core-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test.espresso:espresso-core:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\7796aec8c4c61904707f9281d049ad9a\espresso-core-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.test:rules:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\efdbfee73e2883ed73f1148e5327595c\rules-0.5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.test:rules:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\efdbfee73e2883ed73f1148e5327595c\rules-0.5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.test:runner:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\823a5b45dcef199b9ff62dfaa348c196\runner-0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:runner:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\823a5b45dcef199b9ff62dfaa348c196\runner-0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\c475b8a10723b6353847ba3a33967736\espresso-idling-resource-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\c475b8a10723b6353847ba3a33967736\espresso-idling-resource-2.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\48a993b2ddbb797a4851413abdde09cd\recyclerview-v7-25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\48a993b2ddbb797a4851413abdde09cd\recyclerview-v7-25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\23238898cfbb052be819c2cbe8801266\exposed-instrumentation-api-publish-0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:exposed-instrumentation-api-publish:0.5] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\23238898cfbb052be819c2cbe8801266\exposed-instrumentation-api-publish-0.5\AndroidManifest.xml:20:5-22:41
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		ADDED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Study Materials\6th sem\MINOR PROJECT\FINAL\LetUsC++\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\61858d8d98786797d6f091693dd38069\appcompat-v7-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\4400a2b8a19acb2e7c825b90f177c82a\animated-vector-drawable-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\524f416de63f66cb6889b3bf3ba99579\support-vector-drawable-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\48a993b2ddbb797a4851413abdde09cd\recyclerview-v7-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\48a993b2ddbb797a4851413abdde09cd\recyclerview-v7-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\ad00d860edbf3ff6278b7ed8b4d08548\transition-25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\bf04084803e9f85f05e78b2f8943aaae\support-v4-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a6e881dac199c4859913603c9f7ca999\support-fragment-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\94041a2489d3f53f5aa33f4d4ddec115\support-media-compat-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a2be4c3c4f180c0a4c8073741fcaec46\support-core-utils-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\0b18c25d39abe15bad4177051e17c4dd\support-core-ui-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\a0cec08d28ef52d6efd0c5a940ae5325\support-compat-25.3.1\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Shreashi Das\.gradle\caches\transforms-2\files-2.1\32e76544996688ddabab6262345beb97\design-25.3.1\AndroidManifest.xml:26:9-47

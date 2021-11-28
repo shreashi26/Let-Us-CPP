@@ -1,0 +1,56 @@
+Inheritance is one of the key feature of object-oriented programming including C++ which allows user to create a new class(derived class) from a existing class(base class).  
+The derived class inherits all feature from a base class and it can have additional features of its own.<br><br>
+
+Inheritance makes the code reusable. When we inherit an existing class, all its methods and fields become available in the new class, hence code is reused.<br>
+
+Note that All members of a class except Private, are inherited.<br><br>
+
+<b><font color="#E91E00">Purpose of Inheritance</font></b><br>
+- Code Re usability<br>
+- Method Overriding (Hence, Runtime Polymorphism.)<br>
+- Use of Virtual Keyword<br><br>
+
+<b><font color="#E91E00">Basic Syntax of Inheritance</font></b><br>
+
+<i>class Subclass_name : access_mode Superclass_name</i><br><br>
+While defining a subclass like this, the super class must be already defined or at least declared before the subclass declaration.<br>
+
+Access Mode is used to specify, the mode in which the properties of superclass will be inherited into subclass, public, private or protected.<br><br>
+
+
+
+<b><font color="#E91E00">Access Control and Inheritance</font></b><br>
+A derived class can access all the non-private members of its base class. Thus base-class members that should 
+not be accessible to the member functions of derived classes should be declared private in the base class.<br><br>
+<b>Access</b><br>
+1. same class can access all (public, private, protected) members.<br>
+2. derived class can access only public and protected members.<br>
+3. Outside classes can access only public members.<br><br>
+
+A derived class inherits all base class methods with the following exceptions:<br>
+- Constructors, destructors and copy constructors of the base class.<br>
+- Overloaded operators of the base class.<br>
+- The friend functions of the base class.<br><br>
+
+<b><font color="#E91E00">Inheritance Visibility Mode</font></b><br>
+
+Depending on Access modifier used while inheritance, the availability of class members of Super class in the sub class changes. It can either be private, protected or public.<br><br>
+
+
+<b>1) Public Inheritance</b><br>
+
+This is the most used inheritance mode. In this the protected member of super class becomes protected members of sub class and public becomes public.<br>
+
+<i>class Subclass : public Superclass</i><br><br>
+
+<b>2) Private Inheritance</b><br>
+
+In private mode, the protected and public members of super class become private members of derived class.<br>
+
+<i>class Subclass : Superclass</i> <br>  // By default its private inheritance<br><br>
+
+<b>3) Protected Inheritance</b><br>
+
+In protected mode, the public and protected members of Super class becomes protected members of Sub class.<br>
+
+<i>class subclass : protected Superclass</i>

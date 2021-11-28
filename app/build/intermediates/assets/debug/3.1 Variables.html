@@ -1,0 +1,55 @@
+A variable in C++ is a name for a piece of memory that can be used to store information.<br>
+There are many types of variables, which determines the size and layout of the variable's memory;<br><br>
+
+<b><font color="#E91E00">Variable Names</font></b><br><br>
+&nbsp we can use any combination of letters and numbers for Variable and function names but it must start with a letter.<br> 
+We can use  Underscore (_) as a letter in variable name and can begin with an underscore But Identifiers beginning with an underscore are reserved, 
+And identifiers beginning with an underscore followed by a lower case letter are reserved for file scope identifiers Therefore using underscore as starting letter is not desirable.<br><br>
+<b>Akki</b> and <b>akki</b> are different identifiers because upper and lower case letters are treated as different identifiers <br><br>
+
+<b><font color="#E91E00">Variable Types</font></b><br><br>
+There are many 'built-in' data types in C.<br><br>
+short int -128 to 127 (1 byte)<br><br>
+unsigned short int 0 to 255 (1 byte)<br><br>
+char 0 to 255 or -128 to +127 (1 byte)<br><br>
+unsigned char 0 to 255 (1 byte)<br><br>
+signed char -128 to 127 (1 byte)<br><br>
+int -32,768 to +32,767 (2 bytes)<br><br>
+unsigned int 0 to +65,535 (2 bytes)<br><br>
+long int -2,147,483,648  to +2,147,483,647 (4 bytes)<br><br>
+unsigned long int 0 to 4,294,967,295 (4 bytes)<br><br>
+float single precision floating point (4 bytes)<br><br>
+double double precision floating point (8 bytes)<br><br>
+long double extended precision floating point (10 bytes)<br><br><br>
+
+<b><font color="#E91E00">Definition, Declaration & Initialization</font></b><br><br>
+<b>Definition</b> is the place where variable is created (allocated storage).<br><br>
+<b>Declaration</b> is a place where nature (type) of variable is stated, but no storage is allocated.<br><br>
+<b>Initialization</b> means assigning a value to the variable.<br><br>
+Variables can be declared many times, but defined only once. 
+Memory space is not allocated for a variable while declaration. 
+It happens only on variable definition.<br><br>
+
+<b>Variable declaration</b><br>
+syntax	<br>
+data_type variable_name;<br><br>
+example<br>
+int a, b, c;<br> 
+char flag;<br><br>
+
+<b>Variable initialization</b><br>
+syntax<br>
+data_type variable_name = value;<br><br>
+example<br>
+int a = 50; <br>
+char flag = 't';<br><br>
+
+external  and static<br> initialisation done once only.<br><br>
+auto  and register <br>initialisation done each time block is entered.<br><br>
+
+external and static variables cannot be initialised with a value that is not known until run-time; the initialiser must be a constant expression.<br><br>
+
+A variable that has not been assigned a value is called an uninitialized variable. 
+Uninitialized variables are very dangerous because they cause intermittent problems (due to having different values each time you run the program). 
+This can make them very hard to debug.<br><br>
+

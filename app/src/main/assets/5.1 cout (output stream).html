@@ -1,0 +1,23 @@
+On most program environments, the standard output by default is the screen, and the C++ stream object defined to access it is cout. cout is an instance of iostream class<br><br>
+
+For formatted output operations, cout is used together with the insertion operator, which is written as &lt;&lt; (i.e., two "less than" signs).<br><br>
+
+cout &lt;&lt; "this is Output";<br>// prints this is Output sentence on screen<br>
+cout &lt;&lt; 50;<br>// prints number 50 on screen<br>
+cout &lt;&lt; x;<br>// prints the value of x on screen<br><br>  
+
+The &lt;&lt; operator inserts the data that follows it into the stream that precedes it. In the examples above, it inserted the literal string Output sentence, the number 120, and the value of variable x into the standard output stream cout. Notice that the sentence in the first statement is enclosed in double quotes (") because it is a string literal, while in the last one, x is not. The double quoting is what makes the difference; when the text is enclosed between them, the text is printed literally; when they are not, the text is interpreted as the identifier of a variable, and its value is printed instead.<br><br> 
+For example, these two sentences have very different results:<br>
+
+cout &lt;&lt; "Hello";  // prints Hello<br>
+cout &lt;&lt; Hello;    // prints the content of variable Hello<br> <br>
+
+Multiple insertion operations (&lt;&lt;) may be chained in a single statement:<br>
+
+cout &lt;&lt; "This " &lt;&lt; " is a " &lt;&lt; "single C++ statement";<br><br>
+
+This last statement would print the text This is a single C++ statement. Chaining insertions is especially useful to mix literals and variables in a single statement:<br>
+
+cout &lt;&lt; "I am " &lt;&lt; age &lt;&lt; " years old and my zipcode is " &lt;&lt; zipcode;
+
+	

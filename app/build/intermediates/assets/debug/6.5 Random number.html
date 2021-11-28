@@ -1,0 +1,34 @@
+C (and by extension C++) comes with a built-in pseudo-random number generator. It is implemented as two separate functions that live in the cstdlib header:<br>
+
+srand() sets the initial seed value. srand() should only be called once.<br>
+
+rand() generates the next random number in the sequence (starting from the seed set by srand()).<br><br>
+
+Here’s a sample program using these functions:<br>
+
+int main()<br>
+{<br>
+    int count;<br>
+    srand(5323);<br> // set initial seed value to 5323<br><br>
+ 
+    // Print 10 random numbers<br>
+    for (i=0; i &lt; 10; i++)<br>
+    {<br>
+        cout &lt;&lt; rand() &lt;&lt; "\t";<br>
+    }<br>
+}<br><br>
+
+The output of this program will be any 10 numbers.<br><br>
+
+<b><font color="#E91E00">The range of rand()</font></b><br><br>
+
+rand() generates pseudo-random integers between 0 and RAND_MAX, a constant in stdlib that is typically set to 32767.<br><br>
+Generally, we do not want random numbers between 0 and RAND_MAX — we want numbers between two other values, which we’ll call Low and High.<br> 
+For example, if we’re trying to simulate the user rolling a dice, we want random numbers between 1 and 6.<br><br>
+
+It turns out it’s quite easy to take the result of rand() can convert it into whatever range we want:<br>
+// Generate a random number between Low and High (inclusive)<br>
+unsigned int GetRandomNumber(int Low, int High)<br>
+{<br>
+    return (rand() % (High - Low + 1)) + Low;<br>
+}
